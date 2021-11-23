@@ -1,3 +1,5 @@
+import { Preload } from './preload';
+Preload(['discord.js'])
 import type { BackupData, BackupInfos, CreateOptions, LoadOptions } from './types/';
 import type { Guild } from 'discord.js';
 import { SnowflakeUtil, Intents } from 'discord.js';
